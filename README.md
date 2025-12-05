@@ -40,4 +40,15 @@ Each design is structured for clarity, making it easy to modify, extend, or inte
 ---
 
 ## 📁 Repository Structure
-
+/Explorer_Lite_1k/
+/vhdl/
+/verilog/
+/Explorer_Neo_5k/
+/vhdl/
+/verilog/
+/Explorer_Edge_9k/
+/vhdl/
+/verilog/
+/docs/
+pinouts/
+peripheral_reference/
