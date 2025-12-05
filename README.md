@@ -179,10 +179,23 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### 📞 Support & Community
 
+- 🌐 **Website**: [fpgaedudesign.com](https://fpgaedudesign.com)
 - 💬 **Discord**: [Join our community](https://discord.gg/fpgaedudesign)
 - 🐦 **Twitter**: [@FPGAeduDesign](https://twitter.com/fpgaedudesign)
+- 📺 **YouTube**: [@FPGAeduDesign](https://youtube.com/@FPGAeduDesign)
+- 📘 **Facebook**: [FPGAeduDesign](https://facebook.com/fpgaedudesign)
+- 📸 **Instagram**: [@FPGAeduDesign](https://instagram.com/fpgaedudesign)
+- 🎥 **Kick**: [FPGAeduDesign](https://kick.com/fpgaedudesign)
+- 🎵 **TikTok**: [@FPGAeduDesign](https://tiktok.com/@fpgaedudesign)
 - 📧 **Email**: support@fpgaedudesign.com
 - 📖 **Wiki**: [Documentation Hub](https://wiki.fpgaedudesign.com)
+
+---
+
+### 👨‍💻 Follow the Creator
+
+- 📘 **Facebook**: [rsgb24](https://facebook.com/rsgb24)
+- 🎵 **TikTok**: [@rsgb24](https://tiktok.com/@rsgb24)
 
 ---
 
