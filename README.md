@@ -4,6 +4,8 @@
 
 ### *Empowering Digital Creators Through Open Hardware*
 
+**[🇬🇧 English](README.md)** | **[🇪🇸 Español](README.es.md)**
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![HDL](https://img.shields.io/badge/HDL-VHDL%20%7C%20Verilog-orange.svg)](/)
 [![Platform](https://img.shields.io/badge/Platform-FPGA-success.svg)](/)
@@ -11,7 +13,7 @@
 
 ---
 
-### 🎯 About This Repository
+### 🎯 About
 
 *Professional-grade FPGA development boards designed for education, prototyping, and experimentation*
 
@@ -19,7 +21,7 @@
 
 ---
 
-### 🔌 Development Board Lineup
+### 🔌 Board Lineup
 
 <table>
 <tr>
@@ -70,7 +72,7 @@ High-capacity solution for serious projects
 
 ---
 
-### 💡 Key Features
+### 💡 Features
 
 <div align="center">
 
@@ -87,6 +89,7 @@ High-capacity solution for serious projects
 ---
 
 ### 📂 Repository Structure
+
 ```
 FPGAeduDesign-Boards/
 │
@@ -124,6 +127,7 @@ FPGAeduDesign-Boards/
 ---
 
 ### 🚀 Quick Start
+
 ```bash
 # Clone the repository
 git clone https://github.com/FPGAeduDesign/FPGAeduDesign-Boards.git
@@ -141,6 +145,7 @@ cd ../examples/vhdl/led_blink
 ---
 
 ### 🎓 Learning Path
+
 ```mermaid
 graph LR
     A[🌱 Beginner] -->|Explorer Lite-1k| B[📚 Basics]
