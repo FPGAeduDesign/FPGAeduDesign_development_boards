@@ -38,6 +38,8 @@ Perfecta para principiantes y entornos educativos
 - 🎓 Proyectos educativos
 - 🧪 Prototipado rápido
 
+**[📖 Documentación](Explorer-Lite-1k/docs/)** | **[💻 Ejemplos](Explorer-Lite-1k/examples/)** | **[📦 Prebuilt](Explorer-Lite-1k/prebuilt/)**
+
 </td>
 <td width="33%" align="center">
 
@@ -51,6 +53,8 @@ Rendimiento equilibrado para diseños intermedios
 - 🔧 Diseños lógicos complejos
 - 🎮 Sistemas digitales
 - 📡 Desarrollo de interfaces
+
+**[📖 Documentación](Explorer-Neo-5k/docs/)** | **[💻 Ejemplos](Explorer-Neo-5k/examples/)** | **[📦 Prebuilt](Explorer-Neo-5k/prebuilt/)**
 
 </td>
 <td width="33%" align="center">
@@ -66,6 +70,8 @@ Solución de alta capacidad para proyectos serios
 - 🚀 DSP avanzado
 - 🎛️ Prototipado profesional
 
+**[📖 Documentación](Explorer-Edge-9k/docs/)** | **[💻 Ejemplos](Explorer-Edge-9k/examples/)** | **[📦 Prebuilt](Explorer-Edge-9k/prebuilt/)**
+
 </td>
 </tr>
 </table>
@@ -79,10 +85,11 @@ Solución de alta capacidad para proyectos serios
 | Característica | Descripción |
 |:--------------:|:------------|
 | 🎨 **Soporte Dual HDL** | Ejemplos completos en VHDL y Verilog |
-| 🔍 **Prueba de Periféricos** | Proyectos de validación listos para todos los componentes integrados |
+| 📦 **Binarios Pre-compilados** | Archivos .fs listos para flashear y probar al instante (sin compilación) |
+| 🔍 **Prueba de Periféricos** | Proyectos de validación para todos los componentes integrados |
 | 📖 **Enfoque Educativo** | Tutoriales paso a paso y código bien comentado |
-| 🛠️ **Hardware Abierto** | Esquemáticos completos y archivos de diseño disponibles |
-| ⚡ **Inicio Rápido** | Proyectos preconfigurados para comenzar en minutos |
+| 🛠️ **Compatible con Gowin EDA** | Todos los proyectos incluyen archivos .gpr para fácil importación |
+| ⚡ **Inicio Rápido** | Flashea binarios en segundos o compila desde código fuente |
 
 </div>
 
@@ -94,33 +101,53 @@ Solución de alta capacidad para proyectos serios
 FPGAeduDesign-Boards/
 │
 ├── 🔷 Explorer-Lite-1k/
-│   ├── 📄 docs/              # Hojas de datos, guías de usuario, pines
-│   └── 🔧 hardware/          # Archivos PCB, esquemáticos, BOM
+│   ├── 📄 docs/                    # Hojas de datos, guías de usuario, pines
+│   ├── 🔧 hardware/                # Archivos PCB, esquemáticos, BOM
+│   │
+│   ├── 💻 examples/                # Ejemplos con código fuente completo
+│   │   ├── vhdl/
+│   │   │   ├── led_blink/
+│   │   │   │   ├── src/            # Archivos fuente VHDL
+│   │   │   │   ├── *.gpr           # Archivo de proyecto Gowin
+│   │   │   │   └── README.md
+│   │   │   ├── uart_test/
+│   │   │   ├── spi_interface/
+│   │   │   └── i2c_scanner/
+│   │   │
+│   │   └── verilog/
+│   │       ├── led_blink/
+│   │       │   ├── src/            # Archivos fuente Verilog
+│   │       │   ├── *.gpr           # Archivo de proyecto Gowin
+│   │       │   └── README.md
+│   │       ├── uart_test/
+│   │       └── spi_interface/
+│   │
+│   └── 📦 prebuilt/                # Binarios listos para flashear
+│       ├── led_blink.fs            # Bitstream flash (sin código fuente)
+│       ├── uart_test.fs
+│       ├── peripheral_demo.fs
+│       └── README.md               # Instrucciones de flasheo
 │
 ├── 🔶 Explorer-Neo-5k/
 │   ├── 📄 docs/
-│   └── 🔧 hardware/
+│   ├── 🔧 hardware/
+│   ├── 💻 examples/
+│   │   ├── vhdl/
+│   │   └── verilog/
+│   └── 📦 prebuilt/
 │
 ├── 🔺 Explorer-Edge-9k/
 │   ├── 📄 docs/
-│   └── 🔧 hardware/
+│   ├── 🔧 hardware/
+│   ├── 💻 examples/
+│   │   ├── vhdl/
+│   │   └── verilog/
+│   └── 📦 prebuilt/
 │
-├── 💻 examples/
-│   ├── vhdl/                 # Diseños de referencia en VHDL
-│   │   ├── led_blink/
-│   │   ├── uart_loopback/
-│   │   ├── spi_interface/
-│   │   └── i2c_master/
-│   │
-│   └── verilog/              # Diseños de referencia en Verilog
-│       ├── led_blink/
-│       ├── uart_loopback/
-│       ├── spi_interface/
-│       └── i2c_master/
-│
-└── 📚 docs/                  # Documentación general
+└── 📚 docs/                        # Documentación general
     ├── primeros_pasos.md
-    ├── configuracion_herramientas.md
+    ├── configuracion_gowin.md
+    ├── como_flashear.md
     └── preguntas_frecuentes.md
 ```
 
@@ -128,18 +155,29 @@ FPGAeduDesign-Boards/
 
 ### 🚀 Inicio Rápido
 
+**Opción 1: Flashear Binarios Pre-compilados (No requiere herramientas)**
+
 ```bash
 # Clonar el repositorio
 git clone https://github.com/FPGAeduDesign/FPGAeduDesign-Boards.git
 
-# Navegar a tu placa
-cd FPGAeduDesign-Boards/Explorer-Neo-5k
+# Navegar a la carpeta prebuilt de tu placa
+cd FPGAeduDesign-Boards/Explorer-Neo-5k/prebuilt
 
-# Consultar la documentación
-cd docs && cat primeros_pasos.md
+# Flashear el bitstream usando Gowin Programmer
+# Ver docs/como_flashear.md para instrucciones detalladas
+```
 
-# Probar un proyecto de ejemplo
-cd ../examples/vhdl/led_blink
+**Opción 2: Compilar desde Código Fuente**
+
+```bash
+# Navegar a un proyecto de ejemplo
+cd FPGAeduDesign-Boards/Explorer-Neo-5k/examples/vhdl/led_blink
+
+# Abrir el archivo de proyecto Gowin
+# Hacer doble clic en el archivo .gpr o abrirlo con Gowin EDA
+
+# Compilar y programar mediante el IDE Gowin EDA
 ```
 
 ---

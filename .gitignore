@@ -1,0 +1,33 @@
+# Build outputs
+*.bit
+*.bin
+*.mcs
+*.sof
+*.pof
+*.jed
+*.rbt
+
+# Synthesis files
+*.xpr
+*.qpf
+*.qsf
+work/
+simulation/
+*.wlf
+*.vstf
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+transcript
