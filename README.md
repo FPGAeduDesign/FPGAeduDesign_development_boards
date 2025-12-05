@@ -28,23 +28,22 @@ Inside this repository you will find two reference designs written in **VHDL** a
 FPGAeduDesign-Boards/
 │
 ├── Explorer-Lite-1k/
-│ ├── docs/
-│ └── hardware/
+│   ├── docs/
+│   └── hardware/
 │
 ├── Explorer-Neo-5k/
-│ ├── docs/
-│ └── hardware/
+│   ├── docs/
+│   └── hardware/
 │
 ├── Explorer-Edge-9k/
-│ ├── docs/
-│ └── hardware/
+│   ├── docs/
+│   └── hardware/
 │
 ├── examples/
-│ ├── vhdl/
-│ └── verilog/
+│   ├── vhdl/
+│   └── verilog/
 │
 └── docs/
-
 
 ### 📜 License  
 MIT License – feel free to learn, modify, and build upon these projects.
