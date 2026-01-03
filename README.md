@@ -1,27 +1,27 @@
 <div align="center">
 
-# ⚡ FPGAeduDesign Development Boards
+# ⚡ FPGAeduDesign - Placas de Desarrollo
 
-### *Empowering Digital Creators Through Open Hardware*
+### *Empoderando a Creadores Digitales con Hardware Abierto*
 
 **[🇬🇧 English](README.md)** | **[🇪🇸 Español](README.es.md)**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![HDL](https://img.shields.io/badge/HDL-VHDL%20%7C%20Verilog-orange.svg)](/)
-[![Platform](https://img.shields.io/badge/Platform-FPGA-success.svg)](/)
-[![Documentation](https://img.shields.io/badge/Docs-Available-brightgreen.svg)](/)
+[![Plataforma](https://img.shields.io/badge/Plataforma-FPGA-success.svg)](/)
+[![Documentación](https://img.shields.io/badge/Docs-Disponible-brightgreen.svg)](/)
 
 ---
 
-### 🎯 About
+### 🎯 Acerca de Este Repositorio
 
-*Professional-grade FPGA development boards designed for education, prototyping, and experimentation*
+*Placas de desarrollo FPGA de grado profesional diseñadas para educación, prototipado y experimentación*
 
 </div>
 
 ---
 
-### 🔌 Board Lineup
+### 🔌 Línea de Placas de Desarrollo
 
 <table>
 <tr>
@@ -29,48 +29,48 @@
 
 #### 🟢 **Explorer Lite-1k**
 
-*Entry-Level Powerhouse*
+*Potencia de Nivel Inicial*
 
-Perfect for beginners and classroom environments
+Perfecta para principiantes y entornos educativos
 
-**Ideal for:**
-- 📚 Learning fundamentals
-- 🎓 Educational projects
-- 🧪 Quick prototyping
+**Ideal para:**
+- 📚 Aprender fundamentos
+- 🎓 Proyectos educativos
+- 🧪 Prototipado rápido
 
-**[📖 Documentation](Explorer-Lite-1k/docs/)** | **[💻 Examples](Explorer-Lite-1k/examples/)** | **[📦 Prebuilt](Explorer-Lite-1k/prebuilt/)**
+**[📖 Documentación](Explorer-Lite-1k/docs/)** | **[💻 Ejemplos](Explorer-Lite-1k/examples/)** | **[📦 Prebuilt](Explorer-Lite-1k/prebuilt/)**
 
 </td>
 <td width="33%" align="center">
 
 #### 🟡 **Explorer Neo-5k**
 
-*Mid-Range Champion*
+*Campeón de Gama Media*
 
-Balanced performance for intermediate designs
+Rendimiento equilibrado para diseños intermedios
 
-**Ideal for:**
-- 🔧 Complex logic designs
-- 🎮 Digital systems
-- 📡 Interface development
+**Ideal para:**
+- 🔧 Diseños lógicos complejos
+- 🎮 Sistemas digitales
+- 📡 Desarrollo de interfaces
 
-**[📖 Documentation](Explorer-Neo-5k/docs/)** | **[💻 Examples](Explorer-Neo-5k/examples/)** | **[📦 Prebuilt](Explorer-Neo-5k/prebuilt/)**
+**[📖 Documentación](Explorer-Neo-5k/docs/)** | **[💻 Ejemplos](Explorer-Neo-5k/examples/)** | **[📦 Prebuilt](Explorer-Neo-5k/prebuilt/)**
 
 </td>
 <td width="33%" align="center">
 
 #### 🔴 **Explorer Edge-9k**
 
-*Advanced Platform*
+*Plataforma Avanzada*
 
-High-capacity solution for serious projects
+Solución de alta capacidad para proyectos serios
 
-**Ideal for:**
-- 💻 SoC development
-- 🚀 Advanced DSP
-- 🎛️ Professional prototyping
+**Ideal para:**
+- 💻 Desarrollo de SoC
+- 🚀 DSP avanzado
+- 🎛️ Prototipado profesional
 
-**[📖 Documentation](Explorer-Edge-9k/docs/)** | **[💻 Examples](Explorer-Edge-9k/examples/)** | **[📦 Prebuilt](Explorer-Edge-9k/prebuilt/)**
+**[📖 Documentación](Explorer-Edge-9k/docs/)** | **[💻 Ejemplos](Explorer-Edge-9k/examples/)** | **[📦 Prebuilt](Explorer-Edge-9k/prebuilt/)**
 
 </td>
 </tr>
@@ -78,37 +78,37 @@ High-capacity solution for serious projects
 
 ---
 
-### 💡 Features
+### 💡 Características Principales
 
 <div align="center">
 
-| Feature | Description |
-|:-------:|:------------|
-| 🎨 **Dual HDL Support** | Complete examples in both VHDL and Verilog |
-| 📦 **Pre-built Binaries** | Ready-to-flash .fs files for instant testing (no compilation needed) |
-| 🔍 **Peripheral Testing** | Validation projects for all onboard components |
-| 📖 **Educational Focus** | Step-by-step tutorials and well-commented code |
-| 🛠️ **Gowin EDA Ready** | All projects include .gpr files for easy import |
-| ⚡ **Quick Start** | Flash binaries in seconds or build from source |
+| Característica | Descripción |
+|:--------------:|:------------|
+| 🎨 **Soporte Dual HDL** | Ejemplos completos en VHDL y Verilog |
+| 📦 **Binarios Pre-compilados** | Archivos .fs listos para flashear y probar al instante (sin compilación) |
+| 🔍 **Prueba de Periféricos** | Proyectos de validación para todos los componentes integrados |
+| 📖 **Enfoque Educativo** | Tutoriales paso a paso y código bien comentado |
+| 🛠️ **Compatible con Gowin EDA** | Todos los proyectos incluyen archivos .gpr para fácil importación |
+| ⚡ **Inicio Rápido** | Flashea binarios en segundos o compila desde código fuente |
 
 </div>
 
 ---
 
-### 📂 Repository Structure
+### 📂 Estructura del Repositorio
 
 ```
 FPGAeduDesign-Boards/
 │
 ├── 🔷 Explorer-Lite-1k/
-│   ├── 📄 docs/                    # Datasheets, user guides, pinouts
-│   ├── 🔧 hardware/                # PCB files, schematics, BOM
+│   ├── 📄 docs/                    # Hojas de datos, guías de usuario, pines
+│   ├── 🔧 hardware/                # Archivos PCB, esquemáticos, BOM
 │   │
-│   ├── 💻 examples/                # Full source code examples
+│   ├── 💻 examples/                # Ejemplos con código fuente completo
 │   │   ├── vhdl/
 │   │   │   ├── led_blink/
-│   │   │   │   ├── src/            # VHDL source files
-│   │   │   │   ├── *.gpr           # Gowin project file
+│   │   │   │   ├── src/            # Archivos fuente VHDL
+│   │   │   │   ├── *.gpr           # Archivo de proyecto Gowin
 │   │   │   │   └── README.md
 │   │   │   ├── uart_test/
 │   │   │   ├── spi_interface/
@@ -116,17 +116,17 @@ FPGAeduDesign-Boards/
 │   │   │
 │   │   └── verilog/
 │   │       ├── led_blink/
-│   │       │   ├── src/            # Verilog source files
-│   │       │   ├── *.gpr           # Gowin project file
+│   │       │   ├── src/            # Archivos fuente Verilog
+│   │       │   ├── *.gpr           # Archivo de proyecto Gowin
 │   │       │   └── README.md
 │   │       ├── uart_test/
 │   │       └── spi_interface/
 │   │
-│   └── 📦 prebuilt/                # Ready-to-flash binaries
-│       ├── led_blink.fs            # Flash bitstream (no source code)
+│   └── 📦 prebuilt/                # Binarios listos para flashear
+│       ├── led_blink.fs            # Bitstream flash (sin código fuente)
 │       ├── uart_test.fs
 │       ├── peripheral_demo.fs
-│       └── README.md               # Flashing instructions
+│       └── README.md               # Instrucciones de flasheo
 │
 ├── 🔶 Explorer-Neo-5k/
 │   ├── 📄 docs/
@@ -144,81 +144,81 @@ FPGAeduDesign-Boards/
 │   │   └── verilog/
 │   └── 📦 prebuilt/
 │
-└── 📚 docs/                        # General documentation
-    ├── getting_started.md
-    ├── gowin_toolchain_setup.md
-    ├── how_to_flash.md
-    └── faq.md
+└── 📚 docs/                        # Documentación general
+    ├── primeros_pasos.md
+    ├── configuracion_gowin.md
+    ├── como_flashear.md
+    └── preguntas_frecuentes.md
 ```
 
 ---
 
-### 🚀 Quick Start
+### 🚀 Inicio Rápido
 
-**Option 1: Flash Pre-built Binaries (No toolchain required)**
+**Opción 1: Flashear Binarios Pre-compilados (No requiere herramientas)**
 
 ```bash
-# Clone the repository
+# Clonar el repositorio
 git clone https://github.com/FPGAeduDesign/FPGAeduDesign-Boards.git
 
-# Navigate to your board's prebuilt folder
+# Navegar a la carpeta prebuilt de tu placa
 cd FPGAeduDesign-Boards/Explorer-Neo-5k/prebuilt
 
-# Flash the bitstream using Gowin Programmer
-# See docs/how_to_flash.md for detailed instructions
+# Flashear el bitstream usando Gowin Programmer
+# Ver docs/como_flashear.md para instrucciones detalladas
 ```
 
-**Option 2: Build from Source**
+**Opción 2: Compilar desde Código Fuente**
 
 ```bash
-# Navigate to an example project
+# Navegar a un proyecto de ejemplo
 cd FPGAeduDesign-Boards/Explorer-Neo-5k/examples/vhdl/led_blink
 
-# Open the Gowin project file
-# Double-click the .gpr file or open it with Gowin EDA
+# Abrir el archivo de proyecto Gowin
+# Hacer doble clic en el archivo .gpr o abrirlo con Gowin EDA
 
-# Build and program through Gowin EDA IDE
+# Compilar y programar mediante el IDE Gowin EDA
 ```
 
 ---
 
-### 🎓 Learning Path
+### 🎓 Ruta de Aprendizaje
 
 ```mermaid
 graph LR
-    A[🌱 Beginner] -->|Explorer Lite-1k| B[📚 Basics]
-    B --> C[🔧 Intermediate]
-    C -->|Explorer Neo-5k| D[⚡ Advanced]
-    D -->|Explorer Edge-9k| E[🚀 Expert]
+    A[🌱 Principiante] -->|Explorer Lite-1k| B[📚 Básico]
+    B --> C[🔧 Intermedio]
+    C -->|Explorer Neo-5k| D[⚡ Avanzado]
+    D -->|Explorer Edge-9k| E[🚀 Experto]
 ```
 
 ---
 
-### 🤝 Contributing
+### 🤝 Contribuciones
 
-We welcome contributions! Whether it's:
+¡Aceptamos contribuciones! Ya sea:
 
-- 🐛 Bug reports
-- 💡 Feature requests  
-- 📝 Documentation improvements
-- 🔧 New example projects
+- 🐛 Reportes de errores
+- 💡 Solicitudes de características
+- 📝 Mejoras en la documentación
+- 🔧 Nuevos proyectos de ejemplo
 
-Check out our [Contributing Guidelines](CONTRIBUTING.md) to get started.
-
----
-
-### 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-*Feel free to learn, modify, and build upon these designs!*
+Consulta nuestras [Guías de Contribución](CONTRIBUTING.md) para comenzar.
 
 ---
 
-### 📞 Support & Community
+### 📜 Licencia
 
-- 🌐 **Website**: [fpgaedudesign.com](https://fpgaedudesign.com)
-- 💬 **Discord**: [Join our community](https://discord.gg/fpgaedudesign)
+Este proyecto está licenciado bajo la **Licencia MIT** - consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+*¡Siéntete libre de aprender, modificar y construir sobre estos diseños!*
+
+---
+
+### 📞 Soporte y Comunidad
+
+- 🌐 **Sitio Web**: [fpgaedudesign.com](https://fpgaedudesign.com)
+- 💬 **Discord**: [Únete a nuestra comunidad](https://discord.gg/fpgaedudesign)
 - 🐦 **Twitter**: [@FPGAeduDesign](https://twitter.com/fpgaedudesign)
 - 📺 **YouTube**: [@FPGAeduDesign](https://youtube.com/@FPGAeduDesign)
 - 📘 **Facebook**: [FPGAeduDesign](https://facebook.com/fpgaedudesign)
@@ -226,11 +226,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - 🎥 **Kick**: [FPGAeduDesign](https://kick.com/fpgaedudesign)
 - 🎵 **TikTok**: [@FPGAeduDesign](https://tiktok.com/@fpgaedudesign)
 - 📧 **Email**: support@fpgaedudesign.com
-- 📖 **Wiki**: [Documentation Hub](https://wiki.fpgaedudesign.com)
+- 📖 **Wiki**: [Centro de Documentación](https://wiki.fpgaedudesign.com)
 
 ---
 
-### 👨‍💻 Follow the Creator
+### 👨‍💻 Sigue al Creador
 
 - 📘 **Facebook**: [rsgb24](https://facebook.com/rsgb24)
 - 🎵 **TikTok**: [@rsgb24](https://tiktok.com/@rsgb24)
@@ -239,8 +239,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-**Made with ⚡ by the FPGAeduDesign Team**
+**Hecho con ⚡ por el Equipo FPGAeduDesign**
 
-⭐ *Star this repo if you find it useful!* ⭐
+⭐ *¡Dale una estrella si te resulta útil!* ⭐
 
 </div>
